@@ -1,4 +1,4 @@
-#Backup program written in python for linux
+Backup program written in python for linux
 
 Tested in centos version 7
 
