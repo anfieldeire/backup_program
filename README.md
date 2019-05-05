@@ -1,5 +1,7 @@
 Backup program written in python for linux
+
 Tested in centos version 7
+
 Run as a user who will have write permissions to the target directory to zip, and the destination diectory where the zip will go
 
 
