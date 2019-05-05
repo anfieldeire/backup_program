@@ -41,9 +41,7 @@ def count_backups():
     existing_backups = []
     for file in os.listdir(backup_config.backup_dir):
         if fnmatch.fnmatch(file, '*backup*'):
-            print(file)
             filecount = filecount + 1
-            print(filecount)
             existing_backups.append(file)
     existing_backups.sort(reverse=True)        
     return(existing_backups)
