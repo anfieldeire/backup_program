@@ -4,6 +4,7 @@ Tested in centos version 7
 
 Prerequisites: 
 	- Run as user with permissions to both the folder to zip and the destination directory
+	- The variables are contained in backup_config
 
 This program does the following -
 
