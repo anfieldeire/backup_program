@@ -24,9 +24,9 @@ zip_file_name_abs_path = os.path.join(backup_dir, zip_file_name_full)
 clear_backups = 'yes'
 
 # Email variables
-email_user = 'gareth.hasson@gmail.com'
-email_send = 'gareth.hasson@gmail.com'
-email_pass = 'liverpool27'
+email_user = 'email_user'
+email_send = 'email_send'
+email_pass = 'emal_pass'
 subject = 'Backup Completed'
 msg = MIMEMultipart()
 msg['From'] = email_user
