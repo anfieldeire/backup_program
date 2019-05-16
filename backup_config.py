@@ -6,6 +6,7 @@ backup_dir = '/tmp/backupdir/'
 backup_log = '/tmp/backuplog.log'
 max_backups = 3
 backup_string = 'backup_dir + *backup*.zip'
+#gh
 
 
 # File extensions to exclude from backupzip
