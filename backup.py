@@ -17,7 +17,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 import backup_config # configuration file
-
+#
 
 def logging_setup():
     """ Configure logging """
