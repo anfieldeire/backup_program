@@ -50,7 +50,7 @@ def count_backups():
 def delete_extra_backups():
     """ Remove additional backup files beyond the number configured in max backups """
     
-    existing_backups = countbackups()
+    existing_backups = count_backups()
     
     if len(existing_backups) >= backup_config.max_backups:
         for file in existing_backups[backup_config.max_backups-1:]:
